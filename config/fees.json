@@ -1,0 +1,20 @@
+{
+    "fee_tiers": {
+        "default": {
+            "maker_fee": "0.001",
+            "taker_fee": "0.002",
+            "description": "Standard trading fees"
+        },
+        "vip": {
+            "maker_fee": "0.0005",
+            "taker_fee": "0.0015",
+            "description": "VIP tier - reduced fees"
+        },
+        "market_maker": {
+            "maker_fee": "0.0002",
+            "taker_fee": "0.0010",
+            "description": "Market maker program - lowest fees"
+        }
+    },
+    "fee_currency": "USDT"
+}

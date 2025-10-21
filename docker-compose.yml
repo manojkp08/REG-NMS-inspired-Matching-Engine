@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  matching-engine:
+    build: .
+    ports:
+      - "8000:8000"  # REST API
+      - "8080:8080"  # WebSocket
+    volumes:
+      - ./data:/app/data
+    environment:
+      - LOG_LEVEL=INFO

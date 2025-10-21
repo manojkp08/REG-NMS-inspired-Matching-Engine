@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+websockets
+pydantic
+sortedcontainers
+requests
+pytest
+pytest-asyncio
+python-dateutil

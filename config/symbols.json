@@ -1,0 +1,26 @@
+{
+    "supported_symbols": [
+        {
+            "symbol": "BTC-USDT",
+            "base_asset": "BTC",
+            "quote_asset": "USDT",
+            "min_quantity": "0.001",
+            "max_quantity": "1000",
+            "quantity_precision": 8,
+            "price_precision": 2,
+            "min_price": "0.01",
+            "max_price": "1000000"
+        },
+        {
+            "symbol": "ETH-USDT",
+            "base_asset": "ETH",
+            "quote_asset": "USDT",
+            "min_quantity": "0.01",
+            "max_quantity": "10000",
+            "quantity_precision": 6,
+            "price_precision": 2,
+            "min_price": "0.01",
+            "max_price": "100000"
+        }
+    ]
+}
