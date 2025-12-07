@@ -123,6 +123,7 @@ class MatchingEngine:
         order = Order(order_data.get("order_id"))
         
         # Parse side
+        # Assuming order_data["side"] is a string "buy" or "sell"
         side_str = order_data["side"].lower()
         if side_str == "buy":
             side = OrderSide.BUY
